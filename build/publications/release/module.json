@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.ben.dynamicgrid",
+    "module": "dynamic_grid",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dynamic_grid-1.0.0.aar",
+          "url": "dynamic_grid-1.0.0.aar",
+          "size": 32244,
+          "sha512": "b332285112aad0cd39a31e1ca1886416150e90987fd640a04327ca490fd1653ed15bc3b473c7710cbfa629fbda5628e01365afa51fa41b1d36453ebeeae78d58",
+          "sha256": "61169e8101cc0ea3adfe286a878e5811871740a676551a69b328f8057610b017",
+          "sha1": "ee805717a2776eba4b615d6b305212ae526d26d9",
+          "md5": "bc4fea15a290136a0aaffc909693e5f5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamic_grid-1.0.0.aar",
+          "url": "dynamic_grid-1.0.0.aar",
+          "size": 32244,
+          "sha512": "b332285112aad0cd39a31e1ca1886416150e90987fd640a04327ca490fd1653ed15bc3b473c7710cbfa629fbda5628e01365afa51fa41b1d36453ebeeae78d58",
+          "sha256": "61169e8101cc0ea3adfe286a878e5811871740a676551a69b328f8057610b017",
+          "sha1": "ee805717a2776eba4b615d6b305212ae526d26d9",
+          "md5": "bc4fea15a290136a0aaffc909693e5f5"
+        }
+      ]
+    }
+  ]
+}

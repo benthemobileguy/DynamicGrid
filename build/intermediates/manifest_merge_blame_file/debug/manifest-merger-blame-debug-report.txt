@@ -5,10 +5,10 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-7-->/Users/User/UBENWA/ubenwa-clinical-app/dynamicgrid/AndroidManifest.xml:7:5-9:44
+7-->/Users/User/Desktop/dynamicgrid/src/main/AndroidManifest.xml:7:5-9:44
 8        android:minSdkVersion="14"
-8-->/Users/User/UBENWA/ubenwa-clinical-app/dynamicgrid/AndroidManifest.xml:8:13-38
+8-->/Users/User/Desktop/dynamicgrid/src/main/AndroidManifest.xml:8:13-38
 9        android:targetSdkVersion="33" />
-9-->/Users/User/UBENWA/ubenwa-clinical-app/dynamicgrid/AndroidManifest.xml:9:13-42
+9-->/Users/User/Desktop/dynamicgrid/src/main/AndroidManifest.xml:9:13-42
 10
 11</manifest>
